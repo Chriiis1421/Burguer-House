@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
+}
+
+.cabecalho {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: RGB(255, 194, 52);
+    padding: 30px 50px 0px 50px;
+}
+
+.cabecalho__nave__link {
+    display: flex;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal__secao01 {
+    background-color: RGB(255, 194, 52);
+
+    width: 100%;
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.principal__secao01__ladoA {
+    width: 50%;
+    height: 500px;
+
+    overflow: hidden;
+}
+
+.principal__secao01__ladoA__titulos {
+    color: rgb(65, 31, 9);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.principal__secao01__ladoA__titulos__titulo1 {
+    width: 80%;
+
+    padding: 5px;
+
+    border: 2px dashed;
+}
+
+.principal__secao01__ladoA__titulos__titulo2 {
+    font-size: 100px;
+}
+
+.principal__secao01__ladoA__titulos__titulo3 {
+    font-size: 60px;
+}
+
+.principal__secao01__ladoB {
+
+    width: 40%;
+    height: 100%;
+
+    position: relative;
+
+}
+
+.bagulhoDoido {
+    display: flex;
+
+}
+
+.sobre {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.doidoBagulho {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    font-size: medium;
+    color: rgb(65, 31, 9);
+}
