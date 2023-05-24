@@ -2,69 +2,83 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./css/style.css">
+
   <title>Burguer House</title>
 </head>
 
 <body>
-  <header class="cabecalho">
-    <img src="./img/logo.png" alt="Logo Burguer House">
+  <footer class="cabecalho">
+    <figure class="cabecalho__imagem">
+      <img src="./img/logo.png" alt="">
+    </figure>
 
     <nav class="cabecalho__nave">
-      <ul class="cabecalho__nave__link" style="list-style: none">
-        <li class="cabecalho__nave__link">HOME</li>
-        <li class="cabecalho__nave__link">MENU</li>
-        <li class="cabecalho__nave__link">OUR STORY</li>
-        <li class="cabecalho__nave__link">CONTACT US</li>
-      </ul>
+      <a>HOME</a>
+      <a>MENU</a>
+      <a>OUR STORY</a>
+      <a>CONTACT US</a>
     </nav>
-  </header>
+  </footer>
+  <main class="principal">
 
-  <main class="principal__secao01">
-
-    <div class="bagulhoDoido">
-      <div class="principal__secao01__ladoA">
-        <div class="principal__secao01__ladoA__titulos">
-          <h2 class="principal__secao01__ladoA__titulos__titulo1">IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGUERS</h2>
-          <h1 class="principal__secao01__ladoA__titulos__titulo2">BURGUER</h1>
-          <h2 class="principal__secao01__ladoA__titulos__titulo3">WEEK</h2>
-
-        </div>
+    <div class="principal__conteudo">
+      <div class="principal__conteudo__texto">
+        <h3>IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGUERS</h3>
+        <h1>BURGUER</h1>
+        <h2>WEEK</h2>
       </div>
 
-
-
-      <div class="principal__secao01__ladoB">
-        <div class="fundo">
-          <img class="Fundo" src="./img/main/lanche-principal.png" alt="BUrgao">
+      <figure class="principal__conteudo__imagens">
+        <img src="./img/main/lanche-principal.png" alt="">
+        <div class="principal__conteudo__imagens__preco">
+          <img src="./img/main/preco.png" alt="">
         </div>
-        <div class="sobre">
-          <img class="sobre" src="./img/main/preco.png" alt="Preço">
-        </div>
-      </div>
+      </figure>
     </div>
+      
 
-
-    <div class="doidoBagulho">
-      <img src="./img/main/icone-entrega.png" alt="">
+    <div class="principal__contato">
+      <figure class="principal__contato__imagem">
+        <img src="./img/main/icone-entrega.png" alt="">
+      </figure>
       <p>Express Delivery +1 234 567 890</p>
     </div>
-
-   
-
+    
   </main>
 
   <section class="secao1">
-    <div class="ladoA">
-      <img src="./img/fundo1.png" alt="">
+    <div class="secao1__ladoesquerdo">
+      <div class="secao1__ladoesquerdo__texto">
+        <img src="./img/sessao1/fundo1.png" alt="">
+      </div>
+
+      <div class="secao1__ladoesquerdo__texto">
+        <h2>TRY IT TODAY</h2>
+        <h1>MOST POPULAR BURGUER</h1>
+      </div>  
+
     </div>
-
-    <div class="ladoB">
-
+    <div class="secao1__ladodireito">
+      <div class="secao1__ladodireito__cima">
+        <figure>
+          <img src="./img/sessao1/fundo2.png" alt="">
+        </figure>
+        <h2>TRY IT TODAY</h2>
+        <h1>MORE FUN</h1>
+        <h1>MORE TASTE</h1>
+      </div>
+      <div class="secao1__ladodireito__baixo">
+        <figure>
+          <img src="./img/sessao1/fundo3.png" alt="">
+        </figure>
+        <h2>TRY IT TODAY</h2>
+        <h1>FRESH & CHILI</h1>
+      </div>
     </div>
   </section>
 

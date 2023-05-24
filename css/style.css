@@ -4,95 +4,92 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Anton', sans-serif;
+    
 }
 
+/* Cabeçalho */
 .cabecalho {
-    text-decoration: none;
     display: flex;
     justify-content: space-between;
-    background-color: RGB(255, 194, 52);
-    padding: 30px 50px 0px 50px;
+    background-color: rgb(255,194,52);
+    color: rgb(65,31,9);
 }
 
-.cabecalho__nave__link {
+.cabecalho__imagem {
+    padding: 2%;
+}
+
+.cabecalho__nave {
+    padding: 3%;
     display: flex;
-    gap: 50px;
+    gap: 70px;
+    font-family: 'Anton', sans-serif;
+    font-size: x-large;
 }
 
-main {
+.principal {
+    background-color: rgb(255,194,52);
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.principal__secao01 {
-    background-color: RGB(255, 194, 52);
-
-    width: 100%;
-
+.principal__conteudo {
     display: flex;
-    flex-grow: 1;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-.principal__secao01__ladoA {
-    width: 50%;
-    height: 500px;
-
-    overflow: hidden;
+.principal__conteudo__texto {
+    padding: 2%;
+    font-family: 'Anton', sans-serif;
+    color: rgb(65,31,9);
 }
 
-.principal__secao01__ladoA__titulos {
-    color: rgb(65, 31, 9);
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 0px;
-}
-
-.principal__secao01__ladoA__titulos__titulo1 {
-    width: 80%;
-
+.principal__conteudo__texto h3 {
+    border: 4px dashed;
     padding: 5px;
-
-    border: 2px dashed;
+    font-size: 40px;
 }
 
-.principal__secao01__ladoA__titulos__titulo2 {
+.principal__conteudo__texto h1 {
+    font-size: 200px;
+}
+
+.principal__conteudo__texto h2 {
     font-size: 100px;
 }
 
-.principal__secao01__ladoA__titulos__titulo3 {
-    font-size: 60px;
-}
 
-.principal__secao01__ladoB {
-
-    width: 40%;
-    height: 100%;
-
+.principal__conteudo__imagens {
+    padding: 3%;
     position: relative;
-
 }
 
-.bagulhoDoido {
-    display: flex;
-
-}
-
-.sobre {
+.principal__conteudo__imagens__preco {
     position: absolute;
     bottom: 0;
-
 }
 
-.doidoBagulho {
+.principal__contato {
+    font-family: 'Anton', sans-serif;
     display: flex;
     justify-content: center;
-    gap: 10px;
-    margin: 10px;
-    font-size: medium;
-    color: rgb(65, 31, 9);
+    gap: 5px;
+    padding: 1px;
+    font-size: 25px;
+}
+
+
+.secao1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.secao1__ladoesquerdo {
+    position: relative;
+}
+
+.secao1__ladoesquerdo__texto {
+    position: absolute;
+    color: white;
+    font-family: 'Anton', sans-serif;
 }
