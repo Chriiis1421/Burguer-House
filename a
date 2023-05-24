@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Burguer House</title>
+</head>
+
+<body>
+  <footer class="cabecalho">
+    <figure class="cabecalho__imagem">
+      <img src="./img/logo.png" alt="">
+    </figure>
+
+    <nav class="cabecalho__nave">
+      <a>HOME</a>
+      <a>MENU</a>
+      <a>OUR STORY</a>
+      <a>CONTACT US</a>
+    </nav>
+  </footer>
+  <main class="principal">
+
+    <div class="principal__conteudo">
+      <div class="principal__conteudo__texto">
+        <h3>IT IS A GOOD TIME FOR THE GREAT TASTE OF BURGUERS</h3>
+        <h1>BURGUER</h1>
+        <h2>WEEK</h2>
+      </div>
+
+      <figure class="principal__conteudo__imagens">
+        <img src="./img/main/lanche-principal.png" alt="">
+        <div class="principal__conteudo__imagens__preco">
+          <img src="./img/main/preco.png" alt="">
+        </div>
+      </figure>
+    </div>
+
+
+    <div class="principal__contato">
+      <figure class="principal__contato__imagem">
+        <img src="./img/main/icone-entrega.png" alt="">
+      </figure>
+      <p>Express Delivery +1 234 567 890</p>
+    </div>
+
+  </main>
+
+  <section class="secao1">
+    <div class="secao1__ladoesquerdo">
+        <h2>TRY IT TODAY</h2>
+        <h1>MOST POPULAR BURGUER</h1>
+    </div>
+
+    <div class="secao1__ladodireito">
+      <div class="secao1__ladodireito__cima">
+        <h2>TRY IT TODAY</h2>
+        <h1>MORE FUN</h1>
+        <h1>MORE TASTE</h1>
+      </div>
+
+      <div class="secao1__ladodireito__baixo">
+        <h2>TRY IT TODAY</h2>
+        <h1>FRESH & CHILI</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao2">
+    
+  </section>
+
+
+</body>
+
+</html>
