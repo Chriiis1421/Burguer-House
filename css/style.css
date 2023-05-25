@@ -4,15 +4,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 
 /* Cabeçalho */
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(255,194,52);
-    color: rgb(65,31,9);
+    background-color: rgb(255, 194, 52);
+    color: rgb(65, 31, 9);
 }
 
 .cabecalho__imagem {
@@ -28,7 +28,7 @@
 }
 
 .principal {
-    background-color: rgb(255,194,52);
+    background-color: rgb(255, 194, 52);
     display: flex;
     flex-direction: column;
 }
@@ -41,7 +41,7 @@
 .principal__conteudo__texto {
     padding: 2%;
     font-family: 'Anton', sans-serif;
-    color: rgb(65,31,9);
+    color: rgb(65, 31, 9);
 }
 
 .principal__conteudo__texto h3 {
@@ -80,16 +80,109 @@
 
 
 .secao1 {
+    padding: 60px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px;
+    font-family: 'Anton', sans-serif;
 }
 
 .secao1__ladoesquerdo {
-    position: relative;
+    width: 549px;
+    height: 387px;
+    background-image: url(../img/sessao1/fundo1.png);
+    color: white;
+    padding: 20px;
 }
 
-.secao1__ladoesquerdo__texto {
-    position: absolute;
+.secao1__ladodireito {
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 548px;
+    height: 387px;
+}
+
+.secao1__ladodireito__cima {
+    padding: 20px;
+
+    background-image: url(../img/sessao1/fundo2.png);
+    width: 548px;
+    height: 177px;
+}
+
+.secao1__ladodireito__baixo {
+    padding: 20px;
+
+    background-image: url(../img/sessao1/fundo3.png);
+    width: 548px;
+    height: 177px;
+}
+
+.secao2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.secao2__titulos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.secao2__titulos h4,
+h1 {
     font-family: 'Anton', sans-serif;
+    color: rgb(65, 31, 9);
+}
+
+.secao2__titulos h4 {
+    background-color: rgb(255, 194, 52);
+    padding: 7px;
+}
+
+.secao2__titulos h1 {
+    font-size: 50px;
+}
+
+.secao2__titulos p {
+    text-align: center;
+    padding: 0% 5% 0% 5%;
+}
+
+.secao2__cards {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+
+
+.secao2__container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+}
+
+.secao2__container__imagem {
+    width: 330px;
+    height: 320px;
+}
+
+.secao2__container__descricao h3 {
+    font-family: 'Anton', sans-serif;
+    color: rgb(65, 31, 9);
+}
+
+.secao2__container__botao button {
+    font-family: 'Anton', sans-serif;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    color: white;
+    background-color: rgb(223, 28, 28);
 }
