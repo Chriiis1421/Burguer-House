@@ -87,16 +87,18 @@
     font-family: 'Anton', sans-serif;
 }
 
+.secao1 h1, h2 {
+    color: white;
+}
+
 .secao1__ladoesquerdo {
     width: 549px;
     height: 387px;
     background-image: url(../img/sessao1/fundo1.png);
-    color: white;
     padding: 20px;
 }
 
 .secao1__ladodireito {
-    color: white;
     display: flex;
     flex-direction: column;
     gap: 33px;
@@ -167,6 +169,7 @@ h1 {
     justify-content: space-between;
     text-align: center;
     flex-direction: column;
+
 }
 
 .secao2__container__imagem {
