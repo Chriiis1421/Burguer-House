@@ -56,6 +56,7 @@
 
 .principal__conteudo__texto h2 {
     font-size: 100px;
+    color: rgb(65, 31, 9);
 }
 
 
@@ -85,18 +86,20 @@
     justify-content: center;
     gap: 40px;
     font-family: 'Anton', sans-serif;
+} 
+
+.secao1 h1, h2 {
+    color: white;
 }
 
 .secao1__ladoesquerdo {
     width: 549px;
     height: 387px;
     background-image: url(../img/sessao1/fundo1.png);
-    color: white;
     padding: 20px;
 }
 
 .secao1__ladodireito {
-    color: white;
     display: flex;
     flex-direction: column;
     gap: 33px;
@@ -128,15 +131,21 @@
 }
 
 .secao2__titulos {
+    font-family: 'Anton', sans-serif;
+    color: rgb(65, 31, 9);
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
 }
 
+.secao2__titulos h2 {
+    font-family: 'Anton', sans-serif;
+}
+
 .secao2__titulos h4,
 h1 {
-    font-family: 'Anton', sans-serif;
+    
     color: rgb(65, 31, 9);
 }
 
@@ -174,15 +183,60 @@ h1 {
     height: 320px;
 }
 
-.secao2__container__descricao h3 {
+.secao2__container__titulo {
     font-family: 'Anton', sans-serif;
     color: rgb(65, 31, 9);
+    font-size: large;
+}
+
+.secao2__container__descricao {
+    font-family: 'Anton', sans-serif;
+    color: rgb(65, 31, 9);
+    font-size: small;
 }
 
 .secao2__container__botao button {
+    width: 50%;
+    font-size: large;
     font-family: 'Anton', sans-serif;
     padding: 10px 30px 10px 30px;
     border: none;
     color: white;
     background-color: rgb(223, 28, 28);
 }
+
+.secao2__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.secao3 {
+    padding: 7%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: rgb(65, 31, 9);
+}
+
+.secao3 h2 {
+    color: rgb(65, 31, 9);
+}
+
+.secao3__ladoesquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    gap: 7%;
+    width: 500px;
+    height: 405px;
+}
+
+.secao3__ladoesquerdo__titulo {
+    font-size: x-large;
+}
+
+.secao3__ladoesquerdo {
+    padding: 2%;
+}
+
