@@ -245,3 +245,123 @@ h1 {
     padding: 2%;
 }
 
+.formulario {
+    color: rgb(65, 31, 9);
+    font-family: 'Anton', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.formulario__texto {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+.formulario__campos {
+    padding: 3%;
+    display: flex;
+    gap: 5%;
+}
+
+.formulario__campos input, button {
+    border: none;
+    border-radius: 10px;
+}
+
+.formulario__campos__ladoA {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__campos__ladoA__input {
+    padding: 5%;
+    background-color: rgb(255, 194, 52);
+}
+
+.formulario__campos__ladoB {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__campos__ladoB__input {
+    padding: 5%;
+    background-color: rgb(255, 194, 52);
+    color: rgb(65, 31, 9);
+}
+
+.formulario__campos__ladoB__button {
+    padding: 5%;
+    background-color: rgb(223, 28, 28);
+    color: white;
+}
+
+.rodape {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    margin: 5% 17.5% 5% 17.5%;
+    width: 1221px;
+    height: 483px;
+    background-image: url(../img/rodape/fundo.png);
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape__ladoA {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 10%;
+    padding: 5%;
+}
+
+.rodape__ladoA img {
+    width: 242px;
+    height: 54px;
+}
+
+.rodape__ladoB {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.rodape__ladoB img {
+    width: 28px;
+    height: 35px;
+}
+
+.rodape__ladoA__texto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.rodape__ladoB__info {
+    display: flex;
+    gap: 10px;
+}
+
+.rodape__ladoB__icones {
+    bottom: 0%;
+}
+
+
+
+
